@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="Выберите категорию"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/myvieww"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+        <RadioGroup
+            android:id="@+id/radioGroupTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/twoone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_one" />
+
+            <RadioButton
+                android:id="@+id/twotwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_two" />
+
+            <RadioButton
+                android:id="@+id/twothree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_three" />
+
+            <RadioButton
+                android:id="@+id/twofour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_four" />
+
+            <RadioButton
+                android:id="@+id/twofive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_five" />
+
+            <RadioButton
+                android:id="@+id/twosix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_six" />
+
+            <RadioButton
+                android:id="@+id/twoseven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_seven" />
+
+            <RadioButton
+                android:id="@+id/twoeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_eight" />
+
+            <RadioButton
+                android:id="@+id/twonine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_nine" />
+
+            <RadioButton
+                android:id="@+id/twoten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_ten" />
+
+            <RadioButton
+                android:id="@+id/twoeleven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_eleven" />
+
+            <RadioButton
+                android:id="@+id/twotwelve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_twelve" />
+
+            <RadioButton
+                android:id="@+id/twothirteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_thirteen" />
+
+            <RadioButton
+                android:id="@+id/twofourteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_fourteen" />
+
+        </RadioGroup>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="Выберите категорию"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/myview9"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+        <RadioGroup
+            android:id="@+id/radioGroupSeven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/fourthree1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one_one" />
+
+            <RadioButton
+                android:id="@+id/fourthree2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one_two" />
+
+            <RadioButton
+                android:id="@+id/fourthree3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one_three" />
+
+            <RadioButton
+                android:id="@+id/fourthree4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one_tour" />
+
+            <RadioButton
+                android:id="@+id/fourthree5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one_fife" />
+
+            <RadioButton
+                android:id="@+id/fourthree6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one_six" />
+
+            <RadioButton
+                android:id="@+id/fourthree7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one_seven" />
+
+            <RadioButton
+                android:id="@+id/fourthree8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one_eight" />
+
+            <RadioButton
+                android:id="@+id/fourthree9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one_nine" />
+
+            <RadioButton
+                android:id="@+id/fourthree10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one_ten" />
+
+            <RadioButton
+                android:id="@+id/fourthree11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one_eleven" />
+
+            <RadioButton
+                android:id="@+id/fourthree12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one_twelve" />
+
+        </RadioGroup>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

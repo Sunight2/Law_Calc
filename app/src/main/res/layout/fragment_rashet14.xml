@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="Выберите категорию"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/myview3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+        <RadioGroup
+            android:id="@+id/radioGroupFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/fourone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_one" />
+
+            <RadioButton
+                android:id="@+id/fourtwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_two" />
+
+            <RadioButton
+                android:id="@+id/fourthree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_three" />
+
+            <RadioButton
+                android:id="@+id/fourfour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_four" />
+
+            <RadioButton
+                android:id="@+id/fourfive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_five" />
+
+            <RadioButton
+                android:id="@+id/foursix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_six" />
+
+        </RadioGroup>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
