@@ -46,6 +46,7 @@ class Raschet : AppCompatActivity() {
             else if (newData == "."){
                 val dot = "."
                 if (dot in lastT) binding.tChena.hint = "Введите цену иска"
+                else if (binding.tChena.text.isNullOrEmpty()) binding.tChena.hint = "Введите цену иска"
                 else binding.tChena.text = lastT.toString() + newData
             }
             else binding.tChena.text = lastT.toString() + newData
