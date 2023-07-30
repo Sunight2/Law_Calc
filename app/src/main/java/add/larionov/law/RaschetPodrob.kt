@@ -1,9 +1,9 @@
 package add.larionov.law
 
 import add.larionov.law.databinding.ActivityRaschetPodrobBinding
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 
 
@@ -15,6 +15,7 @@ class RaschetPodrob : AppCompatActivity() {
         binding = ActivityRaschetPodrobBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.title = "Расчет госпошлины"
+        //binding.myToolBar.inflateMenu(R.menu.menu_main)
         openFrag(MainRaschetFragment.newInstance(), R.id.fragmentContainerView)
     }
 

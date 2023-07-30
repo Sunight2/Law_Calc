@@ -13,6 +13,7 @@ class RaschetFragment143 : Fragment() {
     lateinit var binding: FragmentRaschet143Binding
     private val dataModel: DataModeltwo by activityViewModels()
     private val dataModelChena: DataModeltwoChena by activityViewModels()
+    private val dataModelTextPodr: DataModelTextPodr by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -38,6 +39,7 @@ class RaschetFragment143 : Fragment() {
         val eleven = binding.fourfife11.text.toString()
         val twelve = binding.fourfife12.text.toString()
         val fragment = RaschetFragmentLast()
+        val one1 = binding.fourfife1.text.toString()
 
         binding.fourfife1.setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction()
@@ -46,6 +48,7 @@ class RaschetFragment143 : Fragment() {
                 .commit()
             dataModel.massage.value = one
             dataModelChena.massage.value = "6 000 рублей"
+            dataModelTextPodr.massage.value = R.string.three_one_one1.toString()
         }
         binding.fourfife2.setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction()
@@ -139,7 +142,7 @@ class RaschetFragment143 : Fragment() {
 
     companion object {
         @JvmStatic
-        fun newInstance() = RaschetFragment11()
+        fun newInstance() = RaschetFragment143()
     }
 
 }

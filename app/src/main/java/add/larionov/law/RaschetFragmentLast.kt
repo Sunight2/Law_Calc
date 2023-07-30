@@ -2,10 +2,10 @@ package add.larionov.law
 
 import add.larionov.law.databinding.FragmentRaschetLastBinding
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.LifecycleOwner
 
@@ -15,6 +15,7 @@ class RaschetFragmentLast : Fragment() {
     lateinit var binding: FragmentRaschetLastBinding
     private val dataModel: DataModeltwo by activityViewModels()
     private val dataModelChena: DataModeltwoChena by activityViewModels()
+    private val dataModelTextPodr: DataModelTextPodr by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -22,6 +23,7 @@ class RaschetFragmentLast : Fragment() {
     ): View? {
         binding = FragmentRaschetLastBinding.inflate(inflater)
         return binding.root
+        binding.myToolBar.inflateMenu(R.menu.menu_main)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -35,10 +37,10 @@ class RaschetFragmentLast : Fragment() {
     }
 
 
+
     companion object {
 
         @JvmStatic
         fun newInstance() = RaschetFragmentLast()
-
     }
 }

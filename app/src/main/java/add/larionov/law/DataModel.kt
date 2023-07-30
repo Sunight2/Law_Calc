@@ -22,3 +22,9 @@ open class DataModeltwoChena : ViewModel() {
     }
 }
 
+open class DataModelTextPodr : ViewModel() {
+    val massage: MutableLiveData<String> by lazy {
+        MutableLiveData<String>()
+    }
+}
+

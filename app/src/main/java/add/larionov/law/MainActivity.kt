@@ -14,19 +14,19 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         supportActionBar?.title = "Юридический калькулятор"
     }
-    fun onClickGoRaschet(view : View){
+    fun onClickGoRaschet(v:View) {
         val intent = Intent(this, Raschet::class.java)
         startActivity(intent)
     }
-    fun onClickGoRaschetNeystoiki(view : View){
+    fun onClickGoRaschetNeystoiki(v: View){
         val intent = Intent(this, Neystoika::class.java)
         startActivity(intent)
     }
-    fun onClickGoAbout(view : View){
+    fun onClickGoAbout(v: View){
         val intent = Intent(this, About::class.java)
         startActivity(intent)
     }
-    fun onClickGoRaschetPodrob(view : View){
+    fun onClickGoRaschetPodrob(v: View){
         val intent = Intent(this, RaschetPodrob::class.java)
         startActivity(intent)
     }
