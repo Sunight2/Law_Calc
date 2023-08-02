@@ -31,3 +31,27 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 }
+//для добавления меню кнопок
+/*
+class ExampleActivity : ComponentActivity(R.layout.activity_example) {
+
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+
+    // Add menu items without overriding methods in the Activity
+   addMenuProvider(object : MenuProvider {
+      override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
+        // Add menu items here
+        menuInflater.inflate(R.menu.example_menu, menu)
+      }
+
+      override fun onMenuItemSelected(menuItem: MenuItem): Boolean {
+        // Handle the menu selection
+        return true
+      }
+    })
+  }
+}
+
+
+ */

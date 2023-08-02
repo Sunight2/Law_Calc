@@ -13,6 +13,7 @@ class RaschetFragment133 : Fragment() {
     lateinit var binding: FragmentRaschet133Binding
     private val dataModel: DataModeltwo by activityViewModels()
     private val dataModelChena: DataModeltwoChena by activityViewModels()
+    private val dataModelTextPodr: DataModelTextPodr by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -46,6 +47,7 @@ class RaschetFragment133 : Fragment() {
                 .commit()
             dataModel.massage.value = one
             dataModelChena.massage.value = "6 000 рублей"
+            dataModelTextPodr.massage.value = R.string.three_one_one1.toString()
         }
         binding.threefife2.setOnClickListener{
             val fragment = RaschetFragmentLast()
@@ -53,6 +55,7 @@ class RaschetFragment133 : Fragment() {
             transaction?.replace(R.id.fragmentContainerView, fragment)?.addToBackStack(null)?.commit()
             dataModel.massage.value = two
             dataModelChena.massage.value = "6 000 рублей"
+            dataModelTextPodr.massage.value = R.string.three_one_one1.toString()
         }
         binding.threefife3.setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction()

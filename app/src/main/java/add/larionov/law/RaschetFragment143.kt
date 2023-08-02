@@ -57,6 +57,7 @@ class RaschetFragment143 : Fragment() {
                 .commit()
             dataModel.massage.value = two
             dataModelChena.massage.value = "6 000 рублей"
+            dataModelTextPodr.massage.value = R.string.three_one_one1.toString()
         }
         binding.fourfife3.setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction()
@@ -65,6 +66,7 @@ class RaschetFragment143 : Fragment() {
                 .commit()
             dataModel.massage.value = three
             dataModelChena.massage.value = "3 000 рублей"
+            dataModelTextPodr.massage.value = R.string.three_one_one1.toString()
         }
         binding.fourfife4.setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction()

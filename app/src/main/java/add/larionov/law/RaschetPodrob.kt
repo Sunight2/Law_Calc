@@ -6,7 +6,6 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 
-
 class RaschetPodrob : AppCompatActivity() {
     private val dataModel: DataModeltwo by viewModels()
     lateinit var binding: ActivityRaschetPodrobBinding
@@ -15,7 +14,6 @@ class RaschetPodrob : AppCompatActivity() {
         binding = ActivityRaschetPodrobBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.title = "Расчет госпошлины"
-        //binding.myToolBar.inflateMenu(R.menu.menu_main)
         openFrag(MainRaschetFragment.newInstance(), R.id.fragmentContainerView)
     }
 
@@ -25,5 +23,4 @@ class RaschetPodrob : AppCompatActivity() {
             .replace(idHolder, f)
             .commit()
     }
-
 }
